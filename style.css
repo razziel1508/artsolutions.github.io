@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 7em; /* Letras muy grandes */
+}
+
+h2 {
+    font-size: 4em; /* Letras muy grandes */
+    font-family: 'Times New Roman', serif;
+}
+
+
+input[type="email"] {
+    margin: 20px 0;
+    padding: 15px;
+    width: 50%; /* Caja de texto más grande */
+    font-size: 1.5em;
+    font-family: 'Times New Roman', serif;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Asegura que el botón no se achique en pantallas pequeñas */
+@media (max-width: 600px) {
+    input[type="email"], button {
+        width: 80%;
+    }
+}
